@@ -1,0 +1,33 @@
+*{ margin: 0;}
+.bg1{ background-color: royalblue;}
+.bg2{ background-color: tomato;}
+.bg3{ background-color: teal;}
+/* float */
+.fl{ float: left;}
+.fr{ float: right;}
+.fn{ float: none;}
+.new{ float: left; margin-left:1%;}
+/* 1 to 12 column */
+.col-1{
+    height: 100px;
+    /* background-color: royalblue; */ 
+}
+.col-2{
+    width: 49.50%;
+    height: 100px;
+}
+.col-3{
+    width: 32.65%;
+    height: 100px;
+    margin-top: 10px;
+}
+.col-4 {
+    width: 24.25%;
+    height: 100px;
+    margin-top: 10px;
+}
+.col-5 {
+    width: 19.2            %;
+    height: 100px;
+    margin-top: 10px;
+}
