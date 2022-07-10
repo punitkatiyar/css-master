@@ -4,6 +4,6 @@
 
 > background-image: linear-gradient(tomato, gold);
  
-> Radial Gradients
+## Radial Gradients
 
-> Conic Gradients
+## Conic Gradients
