@@ -27,3 +27,16 @@
 > background-image: repeating-radial-gradient(red, green 10%, yellow 20%);
 
 ## Conic Gradients
+
+> background-image: conic-gradient(tomato, gold, green, royalblue);
+
+> background-image: conic-gradient(tomato 45deg, gold 90deg, green 120deg, royalblue 250deg);
+
+> background-image: conic-gradient(tomato, gold, green, royalblue);
+
+> background-image: conic-gradient(red 0deg, red 90deg, teal 90deg, teal 180deg, red 180deg, red 270deg, royalblue 270deg);
+
+> background-image: conic-gradient(from 90deg, rgba(255, 99, 71, 0.50), rgba(255, 215, 0, 0.50), rgba(65, 105, 225, 0.80), rgba(0, 128, 128, 0.70));
+
+> background-image: conic-gradient(at 60% 40%, rgba(255, 99, 71, 0.50), rgba(255, 215, 0, 0.50), rgba(65, 105, 225, 0.80), rgba(0, 128, 128, 0.70));
+
