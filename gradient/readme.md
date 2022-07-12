@@ -16,4 +16,14 @@
 
 ## Radial Gradients
 
+> background-image: radial-gradient(tomato, gold, green);
+
+> background-image: radial-gradient(tomato 10%, gold 20%, green 50%);
+
+>  background-image: radial-gradient(circle, tomato, gold, green);
+
+> background-image: radial-gradient(closest-side at 60% 50%, tomato, gold, green);
+
+> background-image: repeating-radial-gradient(red, green 10%, yellow 20%);
+
 ## Conic Gradients
