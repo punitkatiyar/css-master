@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .light {
+            width: 80px;
+            height: 80px;
+            background-color: tomato;
+            border: 2px solid royalblue;
+            position: absolute;
+            /* margin: auto;
+            margin-top: 20vh; */
+            border-radius: 50%;
+            animation-name: app;
+            animation-duration: 5s;
+            /* animation-delay: 2s; */
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+        }
+
+        /* @keyframes app {
+            from {
+                background-color: tomato;
+            }
+
+            to {
+                background-color: green;
+            }
+
+        } */
+        @keyframes app {
+
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 400px;
+                top: 0px;
+            }
+
+            50% {
+                left: 400px;
+                top: 400px;
+            }
+
+            75% {
+                left: 0;
+                top: 400px;
+            }
+
+            100% {
+                top: 0;
+                left: 0;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="light"></div>
+
+</body>
+
+</html>
