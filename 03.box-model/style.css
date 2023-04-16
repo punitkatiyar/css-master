@@ -1,0 +1,26 @@
+.bg1{background-color: tomato;}
+.bg2{ background-color: teal;}
+.bg3{ background-color: gold;}
+.fl{ float: left;}
+.fr{ float: right;}
+.clr{ clear: both;}
+.new{margin-left: 1%; float: left;}
+.col-2{
+    width: 49.50%;
+    height: 10vh;  
+}
+.col-3{
+    width:32.65%;
+    height: 10vh;
+    margin-top: 1vh;
+}
+.col-4 {
+    width: 24.25%;
+    height: 10vh;
+    margin-top: 1vh;
+}
+.col-5 {
+    width: 19.2%;
+    height: 10vh;
+    margin-top: 1vh;
+}
