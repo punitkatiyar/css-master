@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout</title>
+    <style>
+        *{ margin: 0; padding: 0;}
+        .bg1{ background-color: gold;}
+        .bg2{ background-color: tomato;}
+        .bg3{ background-color: royalblue;}
+        .container{
+            background-color: rgb(220, 216, 216);
+            height:80vh;
+            display: flex;
+            /* flex-wrap: wrap; */
+            /* row , row-reverse , column , column-reverse */
+            /* flex-direction:row ; */
+            flex-flow: row wrap;
+            /* start , end , left , right , center , space-around , space-between ,space-evenly */
+            justify-content: center;
+            /* start , end , center , baseline */
+            align-items:center;
+            /* start , end , center ,stretch ,space-between , space-around  */
+            align-content: center ;
+            gap:10px 20px;
+        }
+        .box{ 
+            width: 24%; 
+            height: 25vh;
+            background-color: white;
+        }
+        .box h1{ color: white; padding: 1%; background-color:teal;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box bg1"><h1>1</h1></div>
+        <div class="box bg2"><h1>2</h1></div>
+        <div class="box bg3"><h1>3</h1></div>
+        <div class="box bg1"><h1>4</h1></div>
+        <div class="box bg2"><h1>5</h1></div>
+        <div class="box bg3"><h1>6</h1></div>
+        <div class="box bg2"><h1>7</h1></div>
+        <div class="box bg3"><h1>8</h1></div>
+    </div>
+
+
+
+
+
+    
+</body>
+</html>
