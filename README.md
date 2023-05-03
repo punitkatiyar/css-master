@@ -46,7 +46,7 @@
 </head>
 
 ```
-### My Great Heading {#myId}
+
 
 ### CSS File Code Like
 
