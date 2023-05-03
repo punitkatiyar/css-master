@@ -1,4 +1,6 @@
-# CSS selectors are used to select and apply styles to specific HTML elements.
+# CSS Selectors
+
+**CSS selectors are used to select and apply styles to specific HTML elements.**
 
 > Element Selector: This selector targets all instances of a specific HTML element on the page.
 
