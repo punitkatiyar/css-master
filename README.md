@@ -32,6 +32,38 @@
 </head>
 ```
 
+## External Style Sheets: 
+
+**In this method, you can define the styles in a separate CSS file, which is then linked to your HTML document using the <link> tag. This method allows you to maintain consistent styles across multiple pages.**
+
+```
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+```
+### CSS File Code Like
+
+```
+/* Element Selector */
+h1 {
+  font-size: 24px;
+}
+
+/* Class Selector */
+.myClass {
+  background-color: #fff;
+}
+
+/* ID Selector */
+#myId {
+  border: 1px solid black;
+}
+
+```
+
+
+
 
 
 # Box Layouat
