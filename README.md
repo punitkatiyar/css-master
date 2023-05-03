@@ -2,6 +2,15 @@
 
 **CSS stands for Cascading Style Sheets, and it is a language used to describe the presentation of HTML (Hypertext Markup Language) and XML (Extensible Markup Language) documents. CSS is used to control the layout, fonts, colors, and other visual aspects of web pages and user interfaces.**
 
+## CSS consists of a set of rules that define how the content of a web page should be displayed. 
+
+> Inline Styles
+
+> Internal Style Sheets
+
+> External Style Sheets
+
+
 # Box Layouat
 
 > div block element [box]
