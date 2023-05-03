@@ -10,13 +10,28 @@
 
 > External Style Sheets
 
-### Inline Styles: 
+## Inline Styles: 
 
 **This method allows you to apply styles directly to an HTML element using the style attribute. This method is useful for making quick, one-off style changes.**
 
 ```
 <h1 style="color: red;">This heading containt red color</h1>
 ```
+
+## Internal Style Sheets: 
+
+**This method allows you to define the styles within the <head> section of your HTML document, using the <style> tag. This method is useful when you want to apply styles to a specific page only.**
+
+```
+<head>
+  <style>
+    h1 {
+      color: red;
+    }
+  </style>
+</head>
+```
+
 
 
 # Box Layouat
