@@ -30,5 +30,17 @@ p {
 
 - **Descendant Selector:** This selector targets elements that are descendants of a specific parent element.
 
+```
+.parentElement li {
+  list-style: none;
+}
+```
+
 - **Attribute Selector:** This selector targets elements with a specific attribute value.
+
+```
+input[type="text"] {
+  color:red;
+}
+```
 
